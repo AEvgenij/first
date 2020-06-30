@@ -11,6 +11,7 @@ namespace CSharp1
         static void Main(string[] args)
         {
             Console.WriteLine("First project for GIT!");
+            Console.ReadLine();
         }
     }
 }

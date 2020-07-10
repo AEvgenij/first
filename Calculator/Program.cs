@@ -6,6 +6,42 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
+    public class Calc
+    {
+        private double a = 0;
+        private double memory = 0;
+
+        public void put_A(double a)
+        {
+            this.a = a;
+        }
+
+        public void clear_A()
+        {
+            a = 0;
+        }
+
+        public double Multiplication(double b)
+        {
+            return a * b;
+        }
+
+        public double Division(double b)
+        {
+            return a / b;
+        }
+
+        public double Sum(double b)
+        {
+            return a + b;
+        }
+
+        public double Substraction(double b)
+        {
+            return a - b;
+        }
+    }
+
     static class Program
     {
         /// <summary>
